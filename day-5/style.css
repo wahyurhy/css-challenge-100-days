@@ -133,3 +133,25 @@
     background-color: #7ba2ff;
     margin-left: 140px;
 }
+
+.days {
+    position: absolute;
+    width: 276px;
+    text-align: center;
+    margin-top: 125px;
+    margin-left: -138px;
+    left: 50%;
+    cursor: default;
+}
+
+.days span {
+    color: #949494;
+    display: inline;
+    padding: 7px;
+    font-size: 10px;
+    width: 300px;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    transform: translateX(50%);
+}
